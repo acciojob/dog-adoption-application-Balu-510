@@ -1,2 +1,50 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.form {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    display: inline-block;
+    width: 180px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form select {
+    width: 180px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.form select {
+    height: 80px;
+}
+
+.form input[type="submit"] {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
